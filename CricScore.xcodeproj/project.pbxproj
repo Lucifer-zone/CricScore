@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		311CF8571F0281FA001EABE0 /* UpcomingMatchesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 311CF8551F0281FA001EABE0 /* UpcomingMatchesTableViewCell.m */; };
+		311CF8581F0281FA001EABE0 /* UpcomingMatchesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 311CF8561F0281FA001EABE0 /* UpcomingMatchesTableViewCell.xib */; };
+		311CF85C1F02821B001EABE0 /* RecentMatchesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 311CF85A1F02821B001EABE0 /* RecentMatchesTableViewCell.m */; };
+		311CF85D1F02821B001EABE0 /* RecentMatchesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 311CF85B1F02821B001EABE0 /* RecentMatchesTableViewCell.xib */; };
+		312EDF8D1F024267004182CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 312EDF8C1F024267004182CD /* main.m */; };
+		312EDF901F024267004182CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 312EDF8F1F024267004182CD /* AppDelegate.m */; };
+		312EDF931F024267004182CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 312EDF921F024267004182CD /* ViewController.m */; };
+		312EDF961F024267004182CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 312EDF941F024267004182CD /* Main.storyboard */; };
+		312EDF9B1F024267004182CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 312EDF991F024267004182CD /* LaunchScreen.storyboard */; };
+		312EDFA61F024267004182CD /* CricScoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 312EDFA51F024267004182CD /* CricScoreTests.m */; };
+		312EDFB11F024267004182CD /* CricScoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 312EDFB01F024267004182CD /* CricScoreUITests.m */; };
+		3140C61D1F0519FD00864759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3140C61C1F0519FD00864759 /* Assets.xcassets */; };
+		3140C6291F0522CF00864759 /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3140C6271F0522CF00864759 /* NewsCell.m */; };
+		3140C62A1F0522CF00864759 /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3140C6281F0522CF00864759 /* NewsCell.xib */; };
+		3140C62D1F0524BC00864759 /* UpcomingMatchesTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 3140C62C1F0524BC00864759 /* UpcomingMatchesTable.m */; };
+		3140C6361F05254400864759 /* RecentMatchesTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 3140C6351F05254400864759 /* RecentMatchesTable.m */; };
+		31914A951F066C8E00FAE0D4 /* NewsDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 31914A941F066C8E00FAE0D4 /* NewsDetail.m */; };
+		319679F81F13462200A0A6F7 /* CommentaryWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 319679F71F13462200A0A6F7 /* CommentaryWebView.m */; };
+		31F5EA911F207FD60040C0C1 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31F5EA8F1F207B4C0040C0C1 /* Montserrat-Bold.ttf */; };
+		31F5EA921F207FD60040C0C1 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31F5EA8E1F207B480040C0C1 /* Montserrat-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		312EDFA21F024267004182CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 312EDF801F024266004182CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 312EDF871F024266004182CD;
+			remoteInfo = CricScore;
+		};
+		312EDFAD1F024267004182CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 312EDF801F024266004182CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 312EDF871F024266004182CD;
+			remoteInfo = CricScore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		311CF8541F0281FA001EABE0 /* UpcomingMatchesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UpcomingMatchesTableViewCell.h; path = CricScore/UpcomingMatchesTableViewCell.h; sourceTree = "<group>"; };
+		311CF8551F0281FA001EABE0 /* UpcomingMatchesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UpcomingMatchesTableViewCell.m; path = CricScore/UpcomingMatchesTableViewCell.m; sourceTree = "<group>"; };
+		311CF8561F0281FA001EABE0 /* UpcomingMatchesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UpcomingMatchesTableViewCell.xib; path = CricScore/UpcomingMatchesTableViewCell.xib; sourceTree = "<group>"; };
+		311CF8591F02821B001EABE0 /* RecentMatchesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecentMatchesTableViewCell.h; path = CricScore/RecentMatchesTableViewCell.h; sourceTree = "<group>"; };
+		311CF85A1F02821B001EABE0 /* RecentMatchesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecentMatchesTableViewCell.m; path = CricScore/RecentMatchesTableViewCell.m; sourceTree = "<group>"; };
+		311CF85B1F02821B001EABE0 /* RecentMatchesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RecentMatchesTableViewCell.xib; path = CricScore/RecentMatchesTableViewCell.xib; sourceTree = "<group>"; };
+		312EDF881F024266004182CD /* CricScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CricScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		312EDF8C1F024267004182CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		312EDF8E1F024267004182CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		312EDF8F1F024267004182CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		312EDF911F024267004182CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = CricScore/ViewController.h; sourceTree = "<group>"; };
+		312EDF921F024267004182CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = CricScore/ViewController.m; sourceTree = "<group>"; };
+		312EDF951F024267004182CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		312EDF9A1F024267004182CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		312EDF9C1F024267004182CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		312EDFA11F024267004182CD /* CricScoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CricScoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		312EDFA51F024267004182CD /* CricScoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CricScoreTests.m; sourceTree = "<group>"; };
+		312EDFA71F024267004182CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		312EDFAC1F024267004182CD /* CricScoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CricScoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		312EDFB01F024267004182CD /* CricScoreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CricScoreUITests.m; sourceTree = "<group>"; };
+		312EDFB21F024267004182CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3140C61C1F0519FD00864759 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Downloads/iosTest/iosTest/Assets.xcassets; sourceTree = "<group>"; };
+		3140C6261F0522CF00864759 /* NewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsCell.h; path = CricScore/NewsCell.h; sourceTree = "<group>"; };
+		3140C6271F0522CF00864759 /* NewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsCell.m; path = CricScore/NewsCell.m; sourceTree = "<group>"; };
+		3140C6281F0522CF00864759 /* NewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NewsCell.xib; path = CricScore/NewsCell.xib; sourceTree = "<group>"; };
+		3140C62B1F0524BC00864759 /* UpcomingMatchesTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UpcomingMatchesTable.h; path = CricScore/UpcomingMatchesTable.h; sourceTree = "<group>"; };
+		3140C62C1F0524BC00864759 /* UpcomingMatchesTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UpcomingMatchesTable.m; path = CricScore/UpcomingMatchesTable.m; sourceTree = "<group>"; };
+		3140C6341F05254400864759 /* RecentMatchesTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RecentMatchesTable.h; path = CricScore/RecentMatchesTable.h; sourceTree = "<group>"; };
+		3140C6351F05254400864759 /* RecentMatchesTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecentMatchesTable.m; path = CricScore/RecentMatchesTable.m; sourceTree = "<group>"; };
+		31914A931F066C8E00FAE0D4 /* NewsDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsDetail.h; path = CricScore/NewsDetail.h; sourceTree = "<group>"; };
+		31914A941F066C8E00FAE0D4 /* NewsDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsDetail.m; path = CricScore/NewsDetail.m; sourceTree = "<group>"; };
+		319679F61F13462200A0A6F7 /* CommentaryWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommentaryWebView.h; path = CricScore/CommentaryWebView.h; sourceTree = "<group>"; };
+		319679F71F13462200A0A6F7 /* CommentaryWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommentaryWebView.m; path = CricScore/CommentaryWebView.m; sourceTree = "<group>"; };
+		31F5EA8E1F207B480040C0C1 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Regular.ttf"; path = "../../Downloads/montserrat/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		31F5EA8F1F207B4C0040C0C1 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Bold.ttf"; path = "../../Downloads/montserrat/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		312EDF851F024266004182CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312EDF9E1F024267004182CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312EDFA91F024267004182CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		312EDF7F1F024266004182CD = {
+			isa = PBXGroup;
+			children = (
+				3135024C1F26278700F26D88 /* Controller */,
+				3135024B1F26277A00F26D88 /* Custom Cells */,
+				31F5EA901F207EA00040C0C1 /* Resources */,
+				312EDF8A1F024266004182CD /* CricScore */,
+				312EDFA41F024267004182CD /* CricScoreTests */,
+				312EDFAF1F024267004182CD /* CricScoreUITests */,
+				312EDF891F024266004182CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		312EDF891F024266004182CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				312EDF881F024266004182CD /* CricScore.app */,
+				312EDFA11F024267004182CD /* CricScoreTests.xctest */,
+				312EDFAC1F024267004182CD /* CricScoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		312EDF8A1F024266004182CD /* CricScore */ = {
+			isa = PBXGroup;
+			children = (
+				312EDF8E1F024267004182CD /* AppDelegate.h */,
+				312EDF8F1F024267004182CD /* AppDelegate.m */,
+				312EDF941F024267004182CD /* Main.storyboard */,
+				312EDF991F024267004182CD /* LaunchScreen.storyboard */,
+				3140C61C1F0519FD00864759 /* Assets.xcassets */,
+				312EDF8B1F024267004182CD /* Supporting Files */,
+			);
+			path = CricScore;
+			sourceTree = "<group>";
+		};
+		312EDF8B1F024267004182CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				312EDF8C1F024267004182CD /* main.m */,
+				312EDF9C1F024267004182CD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		312EDFA41F024267004182CD /* CricScoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				312EDFA51F024267004182CD /* CricScoreTests.m */,
+				312EDFA71F024267004182CD /* Info.plist */,
+			);
+			path = CricScoreTests;
+			sourceTree = "<group>";
+		};
+		312EDFAF1F024267004182CD /* CricScoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				312EDFB01F024267004182CD /* CricScoreUITests.m */,
+				312EDFB21F024267004182CD /* Info.plist */,
+			);
+			path = CricScoreUITests;
+			sourceTree = "<group>";
+		};
+		3135024B1F26277A00F26D88 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				311CF85B1F02821B001EABE0 /* RecentMatchesTableViewCell.xib */,
+				311CF8561F0281FA001EABE0 /* UpcomingMatchesTableViewCell.xib */,
+				3140C6281F0522CF00864759 /* NewsCell.xib */,
+			);
+			name = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		3135024C1F26278700F26D88 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				312EDF911F024267004182CD /* ViewController.h */,
+				312EDF921F024267004182CD /* ViewController.m */,
+				3140C62B1F0524BC00864759 /* UpcomingMatchesTable.h */,
+				3140C62C1F0524BC00864759 /* UpcomingMatchesTable.m */,
+				311CF8541F0281FA001EABE0 /* UpcomingMatchesTableViewCell.h */,
+				311CF8551F0281FA001EABE0 /* UpcomingMatchesTableViewCell.m */,
+				31914A931F066C8E00FAE0D4 /* NewsDetail.h */,
+				3140C6271F0522CF00864759 /* NewsCell.m */,
+				31914A941F066C8E00FAE0D4 /* NewsDetail.m */,
+				3140C6261F0522CF00864759 /* NewsCell.h */,
+				319679F61F13462200A0A6F7 /* CommentaryWebView.h */,
+				319679F71F13462200A0A6F7 /* CommentaryWebView.m */,
+				311CF8591F02821B001EABE0 /* RecentMatchesTableViewCell.h */,
+				311CF85A1F02821B001EABE0 /* RecentMatchesTableViewCell.m */,
+				3140C6341F05254400864759 /* RecentMatchesTable.h */,
+				3140C6351F05254400864759 /* RecentMatchesTable.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		31F5EA901F207EA00040C0C1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				31F5EA8F1F207B4C0040C0C1 /* Montserrat-Bold.ttf */,
+				31F5EA8E1F207B480040C0C1 /* Montserrat-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		312EDF871F024266004182CD /* CricScore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 312EDFB51F024267004182CD /* Build configuration list for PBXNativeTarget "CricScore" */;
+			buildPhases = (
+				312EDF841F024266004182CD /* Sources */,
+				312EDF851F024266004182CD /* Frameworks */,
+				312EDF861F024266004182CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CricScore;
+			productName = CricScore;
+			productReference = 312EDF881F024266004182CD /* CricScore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		312EDFA01F024267004182CD /* CricScoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 312EDFB81F024267004182CD /* Build configuration list for PBXNativeTarget "CricScoreTests" */;
+			buildPhases = (
+				312EDF9D1F024267004182CD /* Sources */,
+				312EDF9E1F024267004182CD /* Frameworks */,
+				312EDF9F1F024267004182CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				312EDFA31F024267004182CD /* PBXTargetDependency */,
+			);
+			name = CricScoreTests;
+			productName = CricScoreTests;
+			productReference = 312EDFA11F024267004182CD /* CricScoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		312EDFAB1F024267004182CD /* CricScoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 312EDFBB1F024267004182CD /* Build configuration list for PBXNativeTarget "CricScoreUITests" */;
+			buildPhases = (
+				312EDFA81F024267004182CD /* Sources */,
+				312EDFA91F024267004182CD /* Frameworks */,
+				312EDFAA1F024267004182CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				312EDFAE1F024267004182CD /* PBXTargetDependency */,
+			);
+			name = CricScoreUITests;
+			productName = CricScoreUITests;
+			productReference = 312EDFAC1F024267004182CD /* CricScoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		312EDF801F024266004182CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Shubham Sharma";
+				TargetAttributes = {
+					312EDF871F024266004182CD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					312EDFA01F024267004182CD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 312EDF871F024266004182CD;
+					};
+					312EDFAB1F024267004182CD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 312EDF871F024266004182CD;
+					};
+				};
+			};
+			buildConfigurationList = 312EDF831F024266004182CD /* Build configuration list for PBXProject "CricScore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 312EDF7F1F024266004182CD;
+			productRefGroup = 312EDF891F024266004182CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				312EDF871F024266004182CD /* CricScore */,
+				312EDFA01F024267004182CD /* CricScoreTests */,
+				312EDFAB1F024267004182CD /* CricScoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		312EDF861F024266004182CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31F5EA911F207FD60040C0C1 /* Montserrat-Bold.ttf in Resources */,
+				31F5EA921F207FD60040C0C1 /* Montserrat-Regular.ttf in Resources */,
+				312EDF9B1F024267004182CD /* LaunchScreen.storyboard in Resources */,
+				3140C61D1F0519FD00864759 /* Assets.xcassets in Resources */,
+				311CF85D1F02821B001EABE0 /* RecentMatchesTableViewCell.xib in Resources */,
+				311CF8581F0281FA001EABE0 /* UpcomingMatchesTableViewCell.xib in Resources */,
+				3140C62A1F0522CF00864759 /* NewsCell.xib in Resources */,
+				312EDF961F024267004182CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312EDF9F1F024267004182CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312EDFAA1F024267004182CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		312EDF841F024266004182CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3140C62D1F0524BC00864759 /* UpcomingMatchesTable.m in Sources */,
+				31914A951F066C8E00FAE0D4 /* NewsDetail.m in Sources */,
+				319679F81F13462200A0A6F7 /* CommentaryWebView.m in Sources */,
+				311CF85C1F02821B001EABE0 /* RecentMatchesTableViewCell.m in Sources */,
+				312EDF931F024267004182CD /* ViewController.m in Sources */,
+				312EDF901F024267004182CD /* AppDelegate.m in Sources */,
+				3140C6291F0522CF00864759 /* NewsCell.m in Sources */,
+				3140C6361F05254400864759 /* RecentMatchesTable.m in Sources */,
+				312EDF8D1F024267004182CD /* main.m in Sources */,
+				311CF8571F0281FA001EABE0 /* UpcomingMatchesTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312EDF9D1F024267004182CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312EDFA61F024267004182CD /* CricScoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		312EDFA81F024267004182CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312EDFB11F024267004182CD /* CricScoreUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		312EDFA31F024267004182CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 312EDF871F024266004182CD /* CricScore */;
+			targetProxy = 312EDFA21F024267004182CD /* PBXContainerItemProxy */;
+		};
+		312EDFAE1F024267004182CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 312EDF871F024266004182CD /* CricScore */;
+			targetProxy = 312EDFAD1F024267004182CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		312EDF941F024267004182CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				312EDF951F024267004182CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		312EDF991F024267004182CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				312EDF9A1F024267004182CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		312EDFB31F024267004182CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		312EDFB41F024267004182CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		312EDFB61F024267004182CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CricScore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = apptunix.CricScore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		312EDFB71F024267004182CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CricScore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = apptunix.CricScore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		312EDFB91F024267004182CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CricScoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = apptunix.CricScoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CricScore.app/CricScore";
+			};
+			name = Debug;
+		};
+		312EDFBA1F024267004182CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CricScoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = apptunix.CricScoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CricScore.app/CricScore";
+			};
+			name = Release;
+		};
+		312EDFBC1F024267004182CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CricScoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = apptunix.CricScoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CricScore;
+			};
+			name = Debug;
+		};
+		312EDFBD1F024267004182CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CricScoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = apptunix.CricScoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CricScore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		312EDF831F024266004182CD /* Build configuration list for PBXProject "CricScore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				312EDFB31F024267004182CD /* Debug */,
+				312EDFB41F024267004182CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		312EDFB51F024267004182CD /* Build configuration list for PBXNativeTarget "CricScore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				312EDFB61F024267004182CD /* Debug */,
+				312EDFB71F024267004182CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		312EDFB81F024267004182CD /* Build configuration list for PBXNativeTarget "CricScoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				312EDFB91F024267004182CD /* Debug */,
+				312EDFBA1F024267004182CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		312EDFBB1F024267004182CD /* Build configuration list for PBXNativeTarget "CricScoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				312EDFBC1F024267004182CD /* Debug */,
+				312EDFBD1F024267004182CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 312EDF801F024266004182CD /* Project object */;
+}
